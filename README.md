@@ -14,7 +14,7 @@ Understanding protein localization is crucial for:
 # Data Pipeline
 1. Data Collection 
 
-Protein sequence data were scraped from UniProt. The dataset includes amino acid sequences and annotated subcellular localization labels.
+Protein sequence data were scraped from [UniProt](https://www.uniprot.org/uniprotkb?facets=reviewed%3Atrue&query=*), the dataset includes amino acid sequences and annotated subcellular localization labels.
 
 2. Feature Engineering
 
@@ -25,4 +25,8 @@ Each protein sequence was transformed into a feature vector capturing biochemica
 - Isoelectice point (pI)
 - Aromaticity
 - Hydrophobicity
-- 
+
+3. Preprocessing
+- Numeric features were standardized using StandardScaler.
+- Localization categories were encoded using LabelEncoder.
+- Data were split into training (80%) and testing (20%) sets.
