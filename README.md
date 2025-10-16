@@ -13,9 +13,11 @@ Understanding protein localization is crucial for:
 
 # Data Pipeline
 1. Data Collection 
+
 Protein sequence data were scraped from UniProt. The dataset includes amino acid sequences and annotated subcellular localization labels.
 
 2. Feature Engineering
+
 Each protein sequence was transformed into a feature vector capturing biochemical and biophysical properties including:
 - Amino acid composition
 - Sequence length
