@@ -30,3 +30,11 @@ Each protein sequence was transformed into a feature vector capturing biochemica
 - Numeric features were standardized using StandardScaler.
 - Localization categories were encoded using LabelEncoder.
 - Data were split into training (80%) and testing (20%) sets.
+
+# Models Tested 
+| Model                | Accuracy | F1 (Macro) |
+| -------------------- | -------- | ---------- |
+| Logistic Regression  | 0.55     | 0.41       |
+| Random Forest        | 0.63     | 0.51       |
+| **XGBoost**          | **0.78** | **0.66**   |
+| HistGradientBoosting | 0.78     | 0.67       |
