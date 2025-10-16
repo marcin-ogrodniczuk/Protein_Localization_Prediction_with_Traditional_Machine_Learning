@@ -38,3 +38,34 @@ Each protein sequence was transformed into a feature vector capturing biochemica
 | Random Forest        | 0.63     | 0.51       |
 | **XGBoost**          | **0.78** | **0.66**   |
 | HistGradientBoosting | 0.78     | 0.67       |
+
+
+# Deployment 
+
+An interactive Streamlit app lets users:
+- Paste a protein sequence
+- Predict localization class
+- Visualize model confidence and feature importance
+
+# Tech Stack 
+- Python (Pandas, NumPy, Scikit-learn, Biopython, XGBoost)
+- Streamlit for dashboard
+- Matplotlib/Seaborn for visualization 
+- Joblib for model serialization
+
+# Repository Structure 
+protein_localization_prediction_ML/
+│
+├── app.py                     # Streamlit dashboard
+├── protein_localization.ipynb # Full training + preprocessing workflow
+├── xgboost_protein_localization.pkl  # Trained model
+├── scaler.pkl                 # Scaler for app
+├── label_encoder.pkl          # Label encoder
+├── README.md                  # Project documentation
+└── data/
+    ├── uniprot_sprot.fasta.gz
+    └── uniprot_data.tsv
+
+# Author 
+Marcin Ogrodniczuk
+Data Science Master's Student 
