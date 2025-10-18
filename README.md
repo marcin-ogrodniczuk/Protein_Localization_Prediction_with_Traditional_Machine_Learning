@@ -53,19 +53,6 @@ An interactive Streamlit app lets users:
 - Matplotlib/Seaborn for visualization 
 - Joblib for model serialization
 
-# Repository Structure 
-protein_localization_prediction_ML/
-│
-├── app.py                     # Streamlit dashboard
-├── protein_localization.ipynb # Full training + preprocessing workflow
-├── xgboost_protein_localization.pkl  # Trained model
-├── scaler.pkl                 # Scaler for app
-├── label_encoder.pkl          # Label encoder
-├── README.md                  # Project documentation
-└── data/
-    ├── uniprot_sprot.fasta.gz
-    └── uniprot_data.tsv
-
 # Author 
 Marcin Ogrodniczuk
 Data Science Master's Student 
