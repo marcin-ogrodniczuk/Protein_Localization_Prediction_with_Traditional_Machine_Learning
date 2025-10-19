@@ -62,4 +62,5 @@ An interactive Streamlit app lets users:
 
 # Author 
 Marcin Ogrodniczuk
+
 Data Science Master's Student 
