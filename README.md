@@ -53,6 +53,13 @@ An interactive Streamlit app lets users:
 - Matplotlib/Seaborn for visualization 
 - Joblib for model serialization
 
+# File Structure 
+- app.py: Main Streamlit application file. Loads the trained XGBoost model, label encoder and scaler to provide an interactive web interface.
+- label_encoder.pkl: LabelEncoder object to map numeric class predictions back to their corresponding localization names.
+- scaler.pkl: StandardScaler object used to normalize numerical input features.
+- xgboost_protein_localization.pkl: Trained XGBoost model. 
+  
+
 # Author 
 Marcin Ogrodniczuk
 Data Science Master's Student 
