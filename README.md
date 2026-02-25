@@ -12,7 +12,9 @@ Understanding protein localization is crucial for:
 - Bioinformatic automation: speeds up annotation of newly sequenced proteins.
 
 # Frame the project
-- 
+- Supervised Learning, Multiclass Classification: Training data contains labels for subcellular location of proteins
+- Batch Learning: Protein location data does not fluctuate quickly
+- Instance-based vs model-based learning
 
 # Data Pipeline
 1. Data Collection 
