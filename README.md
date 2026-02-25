@@ -11,6 +11,9 @@ Understanding protein localization is crucial for:
 - Disease Modeling: localization shifts often drive cancer and neurodegenerative diseases.
 - Bioinformatic automation: speeds up annotation of newly sequenced proteins.
 
+# Frame the project
+- 
+
 # Data Pipeline
 1. Data Collection 
 
